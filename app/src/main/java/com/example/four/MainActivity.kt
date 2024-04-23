@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
             setSmallIcon(R.drawable.cart)
             setWhen(System.currentTimeMillis())
             setContentTitle("키워드 알림")
-            setContentText("설정한 키워드에 대한 알립이 도착했습니다!")
+            setContentText("설정한 키워드에 대한 알림이 도착했습니다!")
         }
         manager.notify(11, builder.build())
     }
